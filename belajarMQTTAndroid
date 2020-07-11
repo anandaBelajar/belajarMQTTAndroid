@@ -1,0 +1,21 @@
+take a look for paho mqtt client here https://www.hivemq.com/blog/mqtt-client-library-enyclopedia-paho-android-service/
+install paho mqtt client dependecies di build.gradle(module app)
+add service and permission in androidManifest.xml
+
+file referensi belajarMQTTAndroid
+
+ambil dependenscies dan repository dari sini https://www.alibabacloud.com/help/doc-detail/146630.htm 
+contoh pemakaian liat di sini https://www.hivemq.com/blog/mqtt-client-library-enyclopedia-paho-android-service/
+referensi video playing with mQTT by android channel Toeshiro Novisu
+
+//buat publisher
+tambahkan button di layout.xml untuk melakukan publish
+edit file MainActivity.java 
+
+//buat subscriber
+add text view di activity_main.xml
+edit MainActivity.java
+
+//opsional menambahkan vibration dan ringtone saat menerima message
+//tambahkan permission pada androidManifest
+//edit MainActivity.java
